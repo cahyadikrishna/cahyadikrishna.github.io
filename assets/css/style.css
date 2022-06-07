@@ -1,0 +1,83 @@
+:root {
+  --gradient-color: linear-gradient(to bottom right, #7f5af0, #2d90ed);
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #16161a;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+nav {
+  margin-top: 16px;
+}
+
+button .navbar-toggler {
+  color: #fff !important;
+}
+
+.nav-link {
+  color: #fff !important;
+}
+
+.active {
+  font-weight: bold;
+}
+
+#header {
+  margin-top: 80px;
+}
+
+#header h1 {
+  font-weight: 700;
+  font-size: 72px;
+}
+
+#gallery {
+  margin-top: -25%;
+}
+
+#about {
+  margin-top: 80px;
+}
+
+#about h1 {
+  font-weight: 700;
+  font-size: 64px;
+}
+
+#about p {
+  color: #c0c0c0;
+  font-size: 18px;
+}
+
+.btn-primary {
+  padding: 10px 20px;
+  background-image: var(--gradient-color) !important;
+}
+
+@media (max-width: 768px) {
+  .header_img {
+    display: none;
+  }
+  #gallery {
+    margin-top: 24px;
+  }
+}
+
+@media (min-width: 576px) {
+  #header h1 {
+    font-size: 48px;
+  }
+
+  #about h1 {
+    font-size: 48px;
+  }
+
+  #about {
+    margin-top: 24px;
+  }
+}
