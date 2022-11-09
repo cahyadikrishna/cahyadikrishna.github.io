@@ -1,7 +1,13 @@
 :root {
-  --black-primary: #000000;
-  --white-primary: #ffffff;
+  --black-primary: #16161a;
+  --black-secondary: #242424;
+  --white-primary: #fffffe;
+  --gray-primary: #c0c0c0;
 
-  --yellow-primary: #e3db14;
-  --yellow-secondary: #f0e700;
+  --purple-primary: #7f5af0;
+  --grading-primary: linear-gradient(
+    180deg,
+    #7f5af0 0%,
+    rgba(45, 144, 237, 0.97) 100%
+  );
 }

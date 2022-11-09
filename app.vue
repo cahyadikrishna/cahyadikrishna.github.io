@@ -1,12 +1,12 @@
 <template>
   <Html lang="id-ID">
     <Head>
-      <Title>Minimal Starter Nuxt3</Title>
-      <Link rel="preconnect" href="https://fonts.googleapis.com" />
-      <Link
-        rel="preconnect"
-        href="https://fonts.gstatic.com"
-        crossorigin="anonymous"
+      <Title>Cahyadi Krishna | Portofolio</Title>
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
       />
     </Head>
   </Html>

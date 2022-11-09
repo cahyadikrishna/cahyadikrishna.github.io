@@ -18,7 +18,8 @@
 }
 
 html {
-  color: var(--black-primary);
+  color: var(--white-primary);
+  background-color: var(--black-primary);
   font-size: 1em;
   line-height: 32px;
   scroll-behavior: smooth;
@@ -28,7 +29,7 @@ html {
 }
 
 body {
-  font-family: 'Satoshi', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   overflow-y: scroll;
   overflow-x: hidden;
 }
@@ -38,7 +39,7 @@ input,
 optgroup,
 select,
 textarea {
-  color: var(--black-primary);
+  color: var(--white-primary);
 }
 
 h1,
@@ -66,13 +67,13 @@ section {
    */
 
 ::-moz-selection {
-  background: var(--yellow-primary);
+  background: var(--purple-primary);
   color: #ffffff;
   text-shadow: none;
 }
 
 ::selection {
-  background: var(--yellow-primary);
+  background: var(--purple-primary);
   color: #ffffff;
   text-shadow: none;
 }
