@@ -31,7 +31,6 @@ html {
 body {
   font-family: 'Montserrat', sans-serif;
   overflow-y: scroll;
-  overflow-x: hidden;
 }
 
 button,
@@ -50,10 +49,6 @@ h5,
 h6,
 p {
   margin: 0;
-}
-
-section {
-  overflow-x: hidden;
 }
 
 /*
