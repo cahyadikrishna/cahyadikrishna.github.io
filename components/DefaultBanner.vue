@@ -30,9 +30,10 @@
 
 <style scoped lang="scss">
 .decoration {
+  margin-top: 80px;
   position: absolute;
-  top: 0;
   right: 0;
+  top: 0;
 }
 
 .banner {
@@ -62,8 +63,8 @@
 
 .img-item {
   &-left {
-    overflow: hidden;
     height: 350px;
+    overflow: hidden;
     width: 350px;
 
     img {
