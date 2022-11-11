@@ -23,6 +23,14 @@
               mengeksplorasi layout dan sedang menyukai Dark UI.
             </p>
           </div>
+
+          <DefaultButton
+            to="mailto:cahyadikrishna.ck@gmail.com"
+            placeholder="Email Me"
+          >
+            <img alt="" class="btn-icon" src="@/assets/icons/email.svg" />
+            <span class="text-heading-6 text-medium">Email Me</span>
+          </DefaultButton>
         </div>
       </div>
     </div>
