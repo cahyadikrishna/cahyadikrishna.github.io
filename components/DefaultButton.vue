@@ -18,9 +18,10 @@
   padding: 12px 20px;
   text-decoration: none;
   gap: 10px;
+  transition: 0.4s, background-position 0s;
 
   &:hover {
-    background-position: right center;
+    background-image: var(--gradient-primary);
   }
 }
 </style>

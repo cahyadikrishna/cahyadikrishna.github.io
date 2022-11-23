@@ -29,7 +29,7 @@
             placeholder="Email Me"
           >
             <img alt="" class="btn-icon" src="@/assets/icons/email.svg" />
-            <span class="text-heading-6 text-medium">Email Me</span>
+            <span class="text-body-3 text-medium">Email Me</span>
           </DefaultButton>
         </div>
       </div>
@@ -45,6 +45,7 @@
   &-wrapper {
     display: flex;
     gap: 50px;
+    padding: 0 50px;
   }
 }
 

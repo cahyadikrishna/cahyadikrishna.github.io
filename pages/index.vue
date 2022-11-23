@@ -1,6 +1,7 @@
 <template>
   <NuxtLayout>
-    <DefaultBanner />
-    <DefaultAbout />
+    <HomeBanner />
+    <HomeAbout />
+    <HomeProject />
   </NuxtLayout>
 </template>
